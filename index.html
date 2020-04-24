@@ -1,52 +1,122 @@
 <!DOCTYPE html>
 
 <html>
+
    <head>
        <!-- Metatags, links to Bootstrap and stylesheets -->
 	<meta charset="utf-8">
 
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/fonts/fontawesome/css/all.css" rel="stylesheet">
 
-    <style type="text/css">
-
-      [class*="col"] { margin-bottom: 20px; }
-
-    </style>
 
    </head>
 
-<body>
+<body class="container">
 
-   <!-- Header -->
-   <header>
-		<div class="container">
-			<div class="col-md-8">
+   <header class="row">
+
+			<div class="left-col pic-div col-md-4 col-sm-12">
+				<img class="profile-picture" src="images/id.jpg"> 
+			</div>
+			<div class="right-col col-md-8 col-sm-12">
 				<h1>Julien Laleuve</h1>
-				<h2>Développeur Web</h2>
+				<h2>Développeur web freelance</h2>
+			</div>
+
+   </header>
+
+   <main class="row">
+
+	<article class="left-col container col-md-4 col-sm-12" >
+		<section id="contact">
+			<div>
+
+				<h2 class=">left-title">CONTACT</h2>
+				<dl>
+					<dt>Adresse</dt>
+					<dd><address>Paris, France</address></dd>
+
+					<dt>Téléphone</dt>
+					<dd><a href="tel:+33636822473">06 36 82 24 73</a></dd>
+
+					<dt>Email</dt>
+					<dd><a href="mailto:j.laleuve@gmail.com">j.laleuve@gmail.com</a></dd>
+
+					<dt>Site web</dt>
+					<dd><a target="_blank" href="https://github.com/Julaleuve">github.com/Julaleuve</a></dd>
+				</dl>
+
+			</div>
+		</section>
+		<section id="about">
+			<div>
+				<h2 class="left-title">À PROPOS DE MOI</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id mattis turpis, tempor placerat ante. Sed viverra sagittis pulvinar. Aenean sodales ut velit ac gravida. Quisque sit amet venenatis orci. Aliquam viverra nisi sit amet mi luctus, eu vehicula mauris ornare. Integer ut urna fermentum, ultricies mauris a, aliquam est.</p>
+			</div>
+		</section>
+	</article>
+
+	<article class="right-col container col-md-8 col-sm-12" >
+		<section id="formation">
+			<h2 class="right-title">Formation</h2>
+			<div class="row">
+				<ul>
+					<li>2016 - 2017</li>
+					<li>2014 - 2016</li>
+				</ul>
+			</div>
+		</section>
+		<section id="experience">
+			<h2 class="right-title">Expérience Professionelle</h2>
+			<div>
+				<ul>
+					<li>
+						Mars 2018 - Poste actuel
+					</li>
+					<li>
+						Mars 2018 - Poste actuel
+					</li>
+					<li>
+						Mars 2018 - Poste actuel
+					</li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+   </main>
+
+   <footer class="row">
+
+	<article id="loisirs" class="left-col col-md-4 col-sm-12">
+		<h2 class="left-title">Loisirs</h2>
+		<div class="row">
+			<i class="fas fa-gamepad fa-5x"></i>
+			<i class="fas fa-guitar fa-5x"></i>
+			<i class="fas fa-headphones fa-5x"></i>		
+		</div>
+	</article>
+
+	<article id="recommandations" class="right-col container col-md-8 col-sm-12">
+		<h2 class="right-title">Recommandations</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<h4>MAXIME KIEMAN</h4>
+				<p>Directeur, Mon agence<br/>
+				Téléphone : <a href="tel:118218">118 218</a><br/>
+				Email : <a href="mailto:m.kieman@gmail.com">m.kieman@gmail.com</a></p>
+			</div>
+			<div class="col-md-6">
+				<h4>MAXIME KIEMAN</h4>
+				<p>Directeur, Mon agence<br/>
+				Téléphone : <a href="tel:118218">118 218</a><br/>
+				Email : <a href="mailto:m.kieman@gmail.com">m.kieman@gmail.com</a></p>
 			</div>
 		</div>
-   </header>
-   
-   <!-- Section 1 formation -->
-   <section id="formation">
-       <div class="container">
-           <div class="col-md-8">
-               <h1>Formation</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-           </div>
-
-       </div>
-   </section> 
-
-   <!-- Section 2 experience -->
-   <section id="experience">
-   </section>
-
-   <!-- Section 3 competence -->
-   <section id="competence">
-   </section>
-
-   <footer>
+	</article>
+	
    </footer>
 
 </body>
