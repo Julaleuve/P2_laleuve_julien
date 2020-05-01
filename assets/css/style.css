@@ -4,70 +4,125 @@ body {
 	padding: 0;
 }
 
-header {
-  	background-color: lightgreen;
-  	border: 2px solid black;
-  	border-radius: 6px;
-  	line-height: 40px;
+header .col-md-8 div{
+	align-items: center;
+	justify-content: center;
 }
 
-main {
-	background-color: #d70e76;
-	border: 2px solid black;
-    border-radius: 6px;
-    line-height: 40px;
+header h1{
+    font-size: 4em;
+    text-transform: uppercase;
+    height:1em;
+    align-items: center;
+    margin:0;
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+    padding-left: 1em;
 }
 
-footer {
-  	background-color: lightblue;
-  	border: 2px solid black;
-  	border-radius: 6px;
-  	line-height: 40px;
+header h1 span{
+	color: #feca07;
 }
 
-[class*="left-col"], left-col {
-	background-color: #feca07;
-
+header h2 {
+	font-size: 2em;
+	margin: 0;
+	padding-left: 2em;
+	margin-bottom: 2em;
 }
 
-[class*="right-col"], right-col {
-
+header h2 span{
+	text-decoration-line: underline;
+    text-decoration-color:#feca07;
+    font-size: 1em;
 }
 
+main .col-md-8 p {
+	padding-right: 2em;
+}
+
+main .col-md-4 p {
+	padding-left: 2em;
+	padding-right: 2em;
+	margin-top: 2em;
+}
+
+main h4{
+	font-size: 1em;
+}
+
+main h5{
+	font-size: 1em;
+}
+
+footer .col-md-4 div{
+    justify-content: space-around;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.col-md-8 i{
+	color: #feca07
+}
+
+footer i{
+	color: #404040;	
+}
 
 [class*="pic-div"], pic-div{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
-
 }
+
 [class*="profile-picture"], profile-picture{
     border-radius: 50%;
-	width: 10em;
-	height: 10em;
+	width: 13em;
+	height: 13em;
+	margin-top: 3em;
+	margin-bottom: 3em;
 	border: 4px #daaf12 solid;
 }
 
 [class*="left-title"], left-title{
 	background-color :#404040;
 	color: #feca07;
-	text-align:center;
+	text-align: center;
 	font-size: xx-large;
+	padding: 0;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	text-transform: uppercase;
 }
 
 [class*="right-title"], right-title{
 	color: #404040;
-	font-size: xx-large;
+	font-size: 2em;
+	border-bottom: 2px solid;
+    border-bottom-color: #feca07;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    margin-left: 1.5em;
 }
 
-footer .left-col div{
-    display:flex;
-    justify-content: space-around;
-    margin:0 auto;
-    padding: 0 auto;
+[class*="left-list"], left-list{
+	-ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
 }
 
-i{
-	color: #404040;
+.col-md-8{
+	background-color: #ffffff;
+}
+
+.col-md-4{
+	background-color: #feca07;
+	padding: 0;
+}
+
+ul {
+list-style-type: none;
+margin-left: 1em;
 }
