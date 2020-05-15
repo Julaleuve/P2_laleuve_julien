@@ -1,5 +1,4 @@
 body {
-	background-color: black;
 	margin: 0;
 	padding: 0;
 }
@@ -56,6 +55,25 @@ body {
 	padding-bottom: 0.25em;
 	text-transform: uppercase;
 	font-weight: 700 !important;
+}
+
+[class*="formation-xp-titre"], .formation-xp-titre {
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-weight: 700 !important;
+}
+
+[class*="poste-titre"], .poste-titre {
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+[class*="fond-jaune"], .fond-jaune {
+	background-color: #feca07;
+}
+
+[class*="coloration-jaune"], .coloration-jaune {
+	color: #feca07;
 }
 
 ul {
