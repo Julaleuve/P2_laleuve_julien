@@ -12,68 +12,77 @@ body {
 
 }
 
-[class*="title-name"], .title-name {  
-	font-size: 4em;
+.title-name {  
+	font-size: 2.1em;
 	text-transform: uppercase;
 }
 
-[class*="subtitle"], .subtitle {    
-	font-size: 1.5em;
+.subtitle {    
+	font-size: 1.2em;
+	text-decoration-line: underline; 
+	text-decoration-color: #039BE5;
+
 }
 
 .subtitle span{
 	text-decoration-line: underline; 
-	text-decoration-color: #feca07;
+	text-decoration-color: #039BE5;
 }
 
-[class*="profile-picture"], .profile-picture {
+.profile-picture {
 	border-radius: 50%;
-	width: 13em;
-	height: 13em;
-	margin-top: 3em;
-	margin-bottom: 3em;
-	border: 4px #daaf12 solid;
+	width: 12em;
+	height: 12em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border: 4px #0277BD solid;
 }
 
-[class*="left-title"], .left-title {
-	background-color :#404040;
-	color: #feca07;
+.left-title {
+	background-color :#424242;
+	color: #039BE5;
 	text-align: center;
-	font-size: 1.7em;
+	font-size: 1.1em;
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
 	text-transform: uppercase;
 	font-weight: 700 !important;
 }
 
-[class*="right-title"], .right-title {
-	color: #404040;
-	font-size: 1.7em;
+.right-title {
+	color: #424242;
+	font-size: 1.1em;
 	border-bottom: 2px solid;
-	border-bottom-color: #feca07;
+	border-bottom-color: #039BE5;
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
 	text-transform: uppercase;
 	font-weight: 700 !important;
 }
 
-[class*="formation-xp-titre"], .formation-xp-titre {
-	font-size: 1.3em;
+.formation-xp-titre {
+	font-size: 0.9em;
 	text-transform: uppercase;
 	font-weight: 700 !important;
 }
 
-[class*="poste-titre"], .poste-titre {
-	font-size: 1.1em;
+.poste-titre {
+	font-size: 0.8em;
 	font-style: italic;
 }
 
-[class*="fond-jaune"], .fond-jaune {
-	background-color: #feca07;
+.fond-jaune {
+	background-color: #039BE5;
 }
 
-[class*="coloration-jaune"], .coloration-jaune {
-	color: #feca07;
+.coloration-jaune {
+	color: #039BE5;
+}
+
+.contour-icone {
+	border: 3px #424242 solid;
+	border-radius: 50%;
+	padding: 10px;
 }
 
 ul {
@@ -88,28 +97,27 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'acherusgrotesque-regular';
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
 
 	.title-name {
-		font-size: 1.7em;
+		font-size: 4em;
 	}
 
 	.subtitle {
-		text-decoration-line: underline; 
-		text-decoration-color: #feca07;
-		font-size: 1em;
+		text-decoration-line: none; 
+		font-size: 1.5em;
 	}
 
 	.left-title {
-		font-size: 1.2em;
+		font-size: 1.5em;
 	}
 
 	.right-title {
-		font-size: 1.2em;
+		font-size: 1.5em;
 	}
 
 	.formation-xp-titre {
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 }
 
